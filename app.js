@@ -33,7 +33,7 @@ app.use('/api/orders', orderRoutes);
 app.use('/api/carts', cartRoutes)
 
 app.get('/api', (req, res) => {
-    res.send('Welcome to Our E-Commerce App');
+    res.send('Hello World');
 });
 
 // Server static assets if in production
